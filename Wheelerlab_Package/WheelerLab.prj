@@ -1,0 +1,66 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="847939895" file="/Users/adewaleamosu/Desktop/GEO_LIFE_H/RESEARCH/wheelerlab/revision1/Wheelerlab_Package/WheelerLab.prj" location="/Users/adewaleamosu/Desktop/GEO_LIFE_H/RESEARCH/wheelerlab/revision1/Wheelerlab_Package" name="WheelerLab" target="target.mlapps" target-name="Package App">
+    <param.appname>WheelerLab</param.appname>
+    <param.authnamewatermark>Adewale Amosu</param.authnamewatermark>
+    <param.email>adewale@tamu.edu</param.email>
+    <param.company>Texas A &amp; M University</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>An Interactive Program for Sequence Stratigraphic Analysis of Seismic Sections and the Generation of Chronostratigraphic Sections.</param.summary>
+    <param.description>WheelerLab: An Interactive Program for Sequence Stratigraphic Analysis of Seismic Sections and the Generation of Chronostratigraphic Sections and Dynamic Chronostratigraphic Sections.</param.description>
+    <param.screenshot>/Users/adewaleamosu/Desktop/GEO_LIFE_H/RESEARCH/wheelerlab/paper_figures/rev1/real1/WheelerLab_Seismic.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/adewaleamosu/Desktop/GEO_LIFE_H/RESEARCH/wheelerlab/revision1/Wheelerlab_Package</param.output>
+    <param.guid>5ad622e4-fa09-4d35-8117-4b16269eccb0</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/WheelerLab.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>/Users/adewaleamosu/Desktop/GEO_LIFE_H/RESEARCH/SEISLAB/SeisLab_10.0301/S4M/Geophysics_3.0/@struct/flipud.m</file>
+      <file>/Users/adewaleamosu/Desktop/GEO_LIFE_H/RESEARCH/SEISLAB/SeisLab_10.0301/S4M/Geophysics_3.0/@struct/sqrt.m</file>
+      <file>${PROJECT_ROOT}/WheelerLab.fig</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/adewaleamosu/Desktop/GEO_LIFE_H/RESEARCH/wheelerlab/revision1" name="Wheelerlab_Package" optional="false">/Users/adewaleamosu/Desktop/GEO_LIFE_H/RESEARCH/wheelerlab/revision1/Wheelerlab_Package</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2016a.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.11.3</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
